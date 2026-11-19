@@ -1,0 +1,18 @@
+{
+  "name": "مسمط السيدة زينب (البدرشين)",
+  "short_name": "مسمط السيدة زينب",
+  "description": "منيو ديجيتال وأكونت مانجر لمسمط السيدة زينب بالبدرشين",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F2",
+  "theme_color": "#181411",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

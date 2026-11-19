@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #FAF8F2;
+  --ink: #181411;
+  --hair: #DED8CE;
+  --accent: #B91C1C;
+  --gold: #B45309;
+}
+
+html {
+  font-family: var(--font-cairo), system-ui, -apple-system, sans-serif;
+  background-color: #FAF8F2;
+  color: #181411;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAF8F2;
+  color: #181411;
+  min-height: 100vh;
+}
+
+/* Tabular numbers for price clarity */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DED8CE;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B45309;
+}
